@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+ <title>회원가입</title>
+ <link href="./02-signup.css" rel="stylesheet">
+</head>
+<body>
+  <div>
+  <h2>회원가입</h2>
+  <input type="text" placeholder="이메일을 입력하시오"><br><br>
+  <input type="text" placeholder="이름을 입력하시오"><br><br>
+  <input class="pw" type="password" placeholder="비밀번호를 입력하시오"><br><br>
+  <input class="pw" type="password" placeholder="비밀번호를 다시 입력하시오"><br><br>
+  <!-- <select>
+    <option disabled="true" selected="true">지역을 선택하세요</option>  <!-- /* disabled="true"는 선택을 못하게 하는 것이고 selected="true"는 선택되어있게 하는 태그이다./ -->
+    <!-- <option>서울</option>
+    <option>경기</option>
+    <option>인천</option>
+  </select> --> 
+  <br><br>
+  <input type="radio" name="gender">여성    <!-- /*이름을 설정해주는 이유는 radio의 태그는 선택과 취소가 가능한데 두 radio 태그중 한개를 같은 요소끼리 값을 정해서 묶어야한다.*/ -->
+  <input type="radio" name="gender">남성
+  <br><br>
+  <input id="" type="checkbox"> 이용약관 개인정보 수집 및 동의합니다.
+  <hr>
+  <button>가입하기</button> <!-- 원래는 <input type="button" value="가입하기">를 사용했는데 현재는 buttton 태그로 css 애니매이션 등 꾸밀수 있는 방법이 많아졌기에 input태그로는 자유롭게 가공해주기 힘듦어서 따로빼짐 -->
+</div>
+</body>
+</html>
