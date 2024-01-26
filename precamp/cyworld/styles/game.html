@@ -3,6 +3,7 @@
 <head>
     <title>Document</title>
     <link rel="stylesheet" href="./game.css">
+    <script src="./game.js"></script>
 </head>
 <body>
     
@@ -19,14 +20,13 @@
         <div class="game__container">
             <img src="../images/word.png">
             <div class="game__title">끝말잇기</div>
-            <div class="game__subtitle">제시어 : <span id="word">코드캠프</span></div>
+            <div class="game__subtitle">제시어 : <span id="word">코드제로</span></div>
             <div class="word_text">
                 <input class="textbox" id="myword" placeholder="단어를 입력하시오">
-                <button class="search">입력</button>
+                <button class="search" onclick="startWord()">입력</button>
             </div>
             <div class="word__result" id="result">결과!</div>
         </div>
-        
        
         <div class="game__container">
             <img src="../images/lotto.png">
@@ -38,8 +38,9 @@
                 <span>21</span>
                 <span>32</span>
                 <span>43</span>
+                <span>44</span>
             </div>
-            <button class="wrapper__lotto__btn">Button</button>
+            <button class="wrapper__lotto__btn">추첨하기</button>
 </div>
         </div>
     </div>
