@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <title>Document</title>
+  <script>
+    const random = () => {
+      let randomNum = String(Math.floor(Math.random() * 1000000)).padStart(6, "0");
+      
+      // Check if the element with ID "submit" exists
+      let btn = document.getElementById("submit");
+      if (btn) {
+        btn.innerHTML = randomNum;
+      }
+    return randomNum;
+    }
+
+  const complete = () => {
+      let time = 180;
+      setInterval(() => {
+        if (time >= 0) {
+          time = time - 1;
+          let min = Math.floor(time / 60);
+          let sec = time % 60;
+          document.getElementById("time").innerText = `${min}:${sec < 10 ? '0' : ''}${sec}`;
+        } else {
+          clearInterval();
+          alert("인증 시간이 종료되었습니다.");
+        }
+      }, 1000);
+    }
+  </script>
+</head>
+<body>
+  <div id="submit">000000</div>
+  <button onclick="random()">인증번호 전송</button>
+
+  <div id="time">3:00
+    <button onclick="complete()">인증완료</button>
+  </div>
+</body>
+</html>
