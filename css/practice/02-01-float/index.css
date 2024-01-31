@@ -1,0 +1,15 @@
+.floatbox {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  color: white;
+  padding: 30px;
+  box-sizing: border-box;
+  border: 2px solid black;
+  float: right
+}
+
+p {
+  font-size: 16px;
+  clear: right;
+}

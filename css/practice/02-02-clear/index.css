@@ -1,0 +1,29 @@
+.box1 {
+  background-color: firebrick;
+  height: 400px;
+  color: white;
+  float: left;
+}
+
+.box2 {
+  background-color: royalblue;
+  height: 200px;
+  color: white;
+  float: right;
+
+}
+
+.box {
+  width: 300px;
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+/* .text {
+  clear: both;
+} */
+
+/* 실무에서는 단일으로 clear를 사용할 경우 .clearfix를 사용한다. */
+.clearfix {
+  clear: both;
+}                       
