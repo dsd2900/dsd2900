@@ -1,0 +1,231 @@
+*{
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0px;
+  padding: 0px;
+}
+
+a{
+  text-decoration: none;
+}
+
+.container {
+  width: 100%;
+  height: 1220px;
+  background-color: rgb(249, 236, 236);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.device{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  height: 1080px;
+  background-color: black;
+}
+
+.deviceScreen{
+background-color: red;
+width: 98%;
+height: 98%;
+
+}
+
+.headerFunction {
+  width: 100%;
+  height: 36px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+background-color: aqua;
+}
+
+.headerFunctionLeft {
+  background-color: wheat;
+  width: 20%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around
+}
+
+.date{
+
+}
+
+.nofication {
+
+}
+
+.headerFunctionRight {
+  width:20%;
+  background-color: orange;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.etcMode{
+}
+
+.network {
+
+}
+
+.power {
+
+}
+
+.body {
+  width: 100%;
+  height: 950px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-color: yellow;
+  background-image: url(./img/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.wizet {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.timePart {
+  width: 200px;
+  height: 130px;
+  border: 1px solid rgb(47, 43, 43);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.nowTime {
+
+}
+
+.clock {
+  margin: 5px;
+  font-size: 72px;
+}
+
+/*날씨위젯*/
+
+.weatherPart{
+  width: 600px;
+  height: 400px;
+  margin: 50px;
+}
+
+.WeatherBox { 
+  width: 50%;
+  height: 120px;
+  border: 1px solid rgb(47, 43, 43);
+}
+
+.musicBox {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  height: 200px;
+  border: 1px solid rgb(47, 43, 43);
+}
+
+/**/
+
+.musicBox {
+
+}
+
+.musicBanner {
+
+}
+.musicTitle {
+
+}
+
+.musicArtist {
+
+}
+
+/*앱설정*/
+
+.appSetting {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.appSubsetting1 {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.appSubsetting2 {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.appSubsetting3 {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.app {
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.app div {
+  font-size: 50px;
+}
+
+
+.foot{
+background-color: black;
+}
+
+.btns{
+  height: 72px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#leftBtn {
+  width: 100px;
+}
+
+#homeBtn {
+width: 100px;
+}
+
+#rightBtn {
+  width: 100px;
+}
